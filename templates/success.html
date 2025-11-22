@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container success-box">
+        <h2>thank you,{{ name}}</h2>
+        <p>your feedback hasbee submitted successfully!</p>
+        <h3>All feedback</h3>
+        <u1>
+            {% for i in feedbacks %}
+            <li>{{ i[0] }} - {{ i[1] }}</li>
+            {% endfor %}
+        </u1>
+        <a href="/">goback</a> 
+            
+</body>
+</html>
