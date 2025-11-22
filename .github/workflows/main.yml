@@ -2,7 +2,7 @@ name: Feedback form
 on: 
    push:
      branchees:
-   - main
+      main
 
 jobs:
   builds:
